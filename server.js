@@ -43,7 +43,7 @@ app.get('/api/passwords', (req, res) => {
 });
 
 //set up route for posts
-const postRouter = require('./routes/exercises');
+const postRouter = require('./server-side/routes/posts');
 
 const getPost = async (req, res) => {
     console.log('getting post request');
